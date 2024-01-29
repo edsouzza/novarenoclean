@@ -4,12 +4,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: rgb(255, 94, 0); */
+    background-color:var(--bg-header);
 }
 .navbar{    
     width: 1280px;
     height: 100%;
-    /* background-color: blueviolet;  */
+    background-color:var(--bg-header);
     display: flex;    
     justify-content: space-between;   
 }
