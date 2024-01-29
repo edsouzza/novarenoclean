@@ -9,11 +9,11 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color:var(--bg-header);   
+    background-color: transparent;
 }
 h4, 
 h5{
-    color: var(--white);
+    color: var(--links);
     font-size: small;
     font-weight: 100;
 }
