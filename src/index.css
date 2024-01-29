@@ -2,8 +2,7 @@
 :root {
   font-family: "Poppins", sans-serif;  
   --primary-color  : #37ccfd;  
-  --white: #FFF;
-  --black: #131313;  
+  --white: #FFF; 
   --links: #d9d8d8;
   --bg-header:#131313;
 }
