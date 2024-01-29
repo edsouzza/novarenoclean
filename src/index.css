@@ -7,6 +7,3 @@
   --links: #d9d8d8;
   --bg-header:#131313;
 }
-html{
-  background-color: var(--bg-header);
-}
