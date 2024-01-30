@@ -2,6 +2,7 @@ import Header from '../../components/Header'
 import Container from '../../components/Container'
 import Footer from '../../components/Footer'
 import Styles from './Home.module.css'
+import { Link } from 'react-router-dom'
 
 function Home()
 {
@@ -16,8 +17,8 @@ function Home()
                         <p>Preocupada com a sustentabilidade, a Renovadora introduziu um conceito inovador na limpeza e higienização de sofás, carpetes e cortinas com produtos de qualidade que não agridem o meio ambiente. Quer conhecer?</p>                        
                     </div>
                     <div className={Styles.areaBotoes}>
-                        <button className={Styles.btnBlue}>Sobre Nós</button>
-                        <button className={Styles.btnWhite}>Contato</button>
+                    <Link to="/empresa"><button className={Styles.btnBlue}>Sobre Nós</button></Link>
+                    <Link to="/contato"><button className={Styles.btnWhite}>Contato</button></Link> 
                     </div>                    
                 </div>
             </Container>

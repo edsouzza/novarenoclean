@@ -1,12 +1,13 @@
 import imgLogo from "./img/logo.png"
 import styles from "./Logo.module.css"
+import { Link } from 'react-router-dom'
 
 function Logo(){
     return(
         <>
-            <a href="/">
+            <Link to="/">
                 <img src={imgLogo} className={styles.logo} alt="logo" />
-            </a>
+            </Link>
         </>
     )
 }
