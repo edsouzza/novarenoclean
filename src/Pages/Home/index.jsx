@@ -8,8 +8,7 @@ function Home()
 {
     return(
         <section>
-            <Header />    
-            <Container>
+            <Header />   
                 <div className={Styles.home}>
                     <div className={Styles.areaTextos}>
                         <h1>Renovadora renoclean</h1>
@@ -20,8 +19,7 @@ function Home()
                     <Link to="/empresa"><button className={Styles.btnBlue}>Sobre Nós</button></Link>
                     <Link to="/contato"><button className={Styles.btnWhite}>Contato</button></Link> 
                     </div>                    
-                </div>
-            </Container>
+                </div>            
             <Footer />      
         </section>
     )

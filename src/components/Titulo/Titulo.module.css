@@ -1,0 +1,7 @@
+.titulo{
+    text-transform: uppercase;
+    color: var(--primary-color);
+    text-shadow: 0.1em 0.1em #000;  
+    font-size: 2rem; 
+    
+}
