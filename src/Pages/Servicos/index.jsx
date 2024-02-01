@@ -50,7 +50,7 @@ function Servicos() {
                     <Card 
                       imagem    ={Servico3} 
                       titulo    ="Carpetes"
-                      descricao ="Método inovador para remoção de ácaros limpeza de tapetes com total segurança. 
+                      descricao ="Método inovador para remoção de ácaros, limpeza de tapetes com total segurança. 
                                   Todos os serviços são executados no local."
                     />
                     <Card 
