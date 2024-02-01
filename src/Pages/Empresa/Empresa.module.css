@@ -17,7 +17,6 @@
     align-items: center;
     padding: 0 1rem;
     margin-top: 3.4rem;
-    /* background-color: red; */
 }
 .empresa .titulo{
     font-size: 2rem;
@@ -41,7 +40,6 @@
     justify-content: center;
     padding: 2rem 1rem;
     gap: 1rem;
-    /* background-color: red; */
 }
 .empresa .missao_visao_valores .card{
     padding: 1rem 1rem;
@@ -82,7 +80,6 @@
 }
 .empresa .bio .areafoto{    
     border-radius: 100%;
-    /* border: 3px solid var(--primary-color); */
     border: 3px solid  #1fb6d167; 
     padding: 1rem;
     margin-right: 3rem;
