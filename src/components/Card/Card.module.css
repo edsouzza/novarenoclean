@@ -12,11 +12,11 @@
 }
 .areacards .card .imagem{
     width:  300px;
-    height: 147px;    
+    height: 147px; 
 }
 .areacards .card .imagem:hover{
-    cursor:  zoom-in;
-    transform: scale(2.5);
+    cursor:  pointer;
+    /* transform: scale(2.5); */
     border-radius: 0.2rem;
     z-index: 9999;
 }

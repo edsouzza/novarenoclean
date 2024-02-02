@@ -6,7 +6,7 @@ function Card(props)
         <section className={Styles.areacards}> 
         
             <div className={Styles.card}>
-                <img src={props.imagem} alt="Serviços" className={Styles.imagem} />
+                <img src={props.imagem} alt="Serviços" className={Styles.imagem} onClick={props.clickmodal} />
                 <div className={Styles.areatextos}>
                     <h2>{props.titulo}</h2>
                     <p>{props.descricao}</p>
