@@ -10,15 +10,17 @@
     width: 30%;
     padding: 0.5rem;    
 }
+.areaimagem{
+  width: 100%;
+}
 .areacards .card .imagem{
     width:  300px;
-    height: 147px; 
+    height: 147px;     
 }
 .areacards .card .imagem:hover{
     cursor:  pointer;
-    /* transform: scale(2.5); */
-    border-radius: 0.2rem;
-    z-index: 9999;
+    transform: scale(1.016);
+    border-radius: 1.2rem 1.2rem 0 0;   
 }
 .areacards .card .areatextos{
     background-color: #FFF;

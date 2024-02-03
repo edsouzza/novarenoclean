@@ -15,11 +15,14 @@ function Servicos() {
   const [ openModal, setOpenModal ] = useState(false)
   const [ urlModal,  setUrlModal  ] = useState("")
  
-  const handleClick =()=>{      
-      setOpenModal(true)
-      setUrlModal(Servico4)
-  }
 
+  const services = [Servico1, Servico2, Servico3, Servico4]
+  
+  const handleClick =()=>{      
+    //setando abertura do modal para true  
+    setOpenModal(true)         
+  }  
+  
   const closeModal = () =>{
     // fechar o Modal
     setOpenModal(false)
@@ -54,14 +57,16 @@ function Servicos() {
                       imagem    ={Servico1} 
                       titulo    ="Sofás"
                       descricao ="Tratamento de primeira qualidade para sofás e estofados ficarem 
-                                  clean e sem ácaros. Todos os serviços são executados no local."
-                      clickmodal={handleClick}               
+                                  clean e sem ácaros. Todos os serviços são executados no local."                       
+                      mouseEnter={()=>setUrlModal(services[0])}
+                      clickmodal={handleClick}                                  
                     />
                     <Card 
                       imagem    ={Servico2} 
                       titulo    ="Colchões"
                       descricao ="Qualidade de vida com um sono renovador livre de impurezas, ácaros
-                                  e fungos. Todos os nossos serviços são executados no local."
+                                  e fungos. Todos os nossos serviços são executados no local."                      
+                      mouseEnter={()=>setUrlModal(services[1])}
                       clickmodal={handleClick}
                     />
                     <Card 
@@ -69,13 +74,15 @@ function Servicos() {
                       titulo    ="Carpetes"
                       descricao ="Método inovador para remoção de ácaros, limpeza de tapetes com total segurança. 
                                   Todos os serviços são executados no local."
-                      clickmodal={handleClick}            
+                      mouseEnter={()=>setUrlModal(services[2])}   
+                      clickmodal={handleClick}   
                     />
                     <Card 
                       imagem    ={Servico4} 
                       titulo    ="Cortinas"
                       descricao ="Suas cortinas impecáveis com a cor natural sem manchas ou avarias.Todos os 
-                                  nossos serviços são executados no local."
+                                  nossos serviços são executados no local."                      
+                      mouseEnter={()=>setUrlModal(services[3])}
                       clickmodal={handleClick}
                     />
                     
