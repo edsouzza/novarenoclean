@@ -14,12 +14,17 @@ import { useState } from 'react'
 function Servicos() {
   const [ openModal, setOpenModal ] = useState(false)
   const [ urlModal,  setUrlModal  ] = useState("")
-
-  const getUrl = (valor) => {
-     setUrlModal(valor)
-    
+ 
+  const handleClick =()=>{      
+      setOpenModal(true)
+      setUrlModal(Servico4)
   }
-   
+
+  const closeModal = () =>{
+    // fechar o Modal
+    setOpenModal(false)
+  } 
+     
   return (
     <>
       <Header />
@@ -50,28 +55,28 @@ function Servicos() {
                       titulo    ="Sofás"
                       descricao ="Tratamento de primeira qualidade para sofás e estofados ficarem 
                                   clean e sem ácaros. Todos os serviços são executados no local."
-                      clickmodal={setOpenModal}                  
+                      clickmodal={handleClick}               
                     />
                     <Card 
                       imagem    ={Servico2} 
                       titulo    ="Colchões"
                       descricao ="Qualidade de vida com um sono renovador livre de impurezas, ácaros
                                   e fungos. Todos os nossos serviços são executados no local."
-                      clickmodal={setOpenModal}
+                      clickmodal={handleClick}
                     />
                     <Card 
                       imagem    ={Servico3} 
                       titulo    ="Carpetes"
                       descricao ="Método inovador para remoção de ácaros, limpeza de tapetes com total segurança. 
                                   Todos os serviços são executados no local."
-                      clickmodal={setOpenModal}            
+                      clickmodal={handleClick}            
                     />
                     <Card 
                       imagem    ={Servico4} 
                       titulo    ="Cortinas"
                       descricao ="Suas cortinas impecáveis com a cor natural sem manchas ou avarias.Todos os 
                                   nossos serviços são executados no local."
-                      clickmodal={setOpenModal}
+                      clickmodal={handleClick}
                     />
                     
                 </div>
@@ -81,11 +86,13 @@ function Servicos() {
 
       </div>
       <Footer />
+
       <Modal isOpen={openModal} >          
-          <img src={Servico3}  alt="Serviço selecionado" style={{borderRadius:'1rem'}}/>
+          <img src={urlModal} onClick={closeModal} alt="Serviço selecionado" style={{borderRadius:'1rem'}}/>
       </Modal>     
        {/* FALTA ENVIAR DINAMICAMENTE A IMAGEM DO SERVIÇO SELECIONADO O SERVICO ACIMA  */}
        {/* FALTA ACAO DE CLICAR NA IMAGEM DO MODAL PARA FECHA-LO */}
+
     </>
   )
 }
