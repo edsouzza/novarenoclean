@@ -5,11 +5,16 @@ import Footer from '../../components/Footer'
 function TemplateBase()
 {
     return(
-        <>
+      <>
         <Header />    
-          <Container>
-            <h1 style={{color:"var(--white)"}}>Template</h1>
-          </Container>
+          <section className={Styles.template}>
+            <Container>
+                <div className={Styles.content}>
+                  <div className={Styles.areaConteudo}>
+                  </div>
+                </div>
+            </Container>
+          </section>
         <Footer />      
       </>
     )

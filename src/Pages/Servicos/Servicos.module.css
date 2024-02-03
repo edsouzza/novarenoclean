@@ -1,5 +1,5 @@
 .servicos{
-    background-image: url('./img/bg-black.png');   
+    background-image: url('../../../public/assets/bg-texturas/bg-black.png');
     height: 80vh;
 }
 .servicos .content{

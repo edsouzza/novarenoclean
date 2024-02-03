@@ -32,7 +32,7 @@ function Servicos() {
     <>
       <Header />
  
-      <div className={Styles.servicos}>
+      <section className={Styles.servicos}>
 
         <Container>
             <div className={Styles.content}>
@@ -86,20 +86,18 @@ function Servicos() {
                       clickmodal={handleClick}
                     />
                     
-                </div>
+                </div> {/* area dos cards */}
                 
-            </div>
+            </div>  {/* content */}
         </Container>
 
-      </div>
+      </section>
       <Footer />
 
       <Modal isOpen={openModal} >          
-          <img src={urlModal} onClick={closeModal} alt="Serviço selecionado" style={{borderRadius:'1rem'}}/>
+          <img src={urlModal} onClick={closeModal} alt="Serviço selecionado" style={{borderRadius:'1rem', border:'2px solid #ffffff'}}/>
       </Modal>     
-       {/* FALTA ENVIAR DINAMICAMENTE A IMAGEM DO SERVIÇO SELECIONADO O SERVICO ACIMA  */}
-       {/* FALTA ACAO DE CLICAR NA IMAGEM DO MODAL PARA FECHA-LO */}
-
+       
     </>
   )
 }

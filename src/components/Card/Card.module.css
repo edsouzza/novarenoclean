@@ -20,10 +20,9 @@
 .areacards .card .imagem:hover{
     cursor:  pointer;
     transform: scale(1.016);
-    border-radius: 1.2rem 1.2rem 0 0;   
 }
 .areacards .card .areatextos{
-    background-color: #FFF;
+    background-color: #ffffff;
     padding: 2.6rem 0.5rem;
     width: 300px;
 }
