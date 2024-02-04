@@ -1,5 +1,5 @@
 .fotos{
-    background-image: url('../../../public/assets/bg-texturas/bg-gray.png');   
+    background-image: url('../../../public/assets/bg-texturas/bg-black.png');   
     height: 80vh;
 }
 .fotos .content{
@@ -9,7 +9,6 @@
     align-items: center;
     flex-direction: column;
     margin-top: -2rem;
-    background-color: rgb(35, 117, 165);
 }
 .fotos .content .areaFotos{
     width: 95%;
@@ -18,11 +17,9 @@
     margin-top: 2rem; 
     justify-content: center;
     align-items: center;
-    /* background-color: red; */
 }
 .fotos .content .areaFotos .carousel{
-    width: 800px;  
-    height: 500px;  
+    width: 960px;  
+    height: 200px;  
     margin-top: 3rem;
-    background-color: rgb(165, 35, 67);
 }
