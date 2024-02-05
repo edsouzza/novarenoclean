@@ -1,16 +1,69 @@
 import Header from '../../components/Header'
 import Container from '../../components/Container'
 import Footer from '../../components/Footer'
+import Titulo from '../../components/Titulo'
+import Styles from './Videos.module.css'
 
-function Videos()
-{
+import PlayVideo from '../../components/PlayVideo'
+import Video1 from './filmes/video1.mp4'
+import Video2 from './filmes/video2.mp4'
+import Video3 from './filmes/video3.mp4'
+import Video4 from './filmes/video4.mp4'
+import Video5 from './filmes/video5.mp4'
+import Video6 from './filmes/video6.mp4'
+import Video7 from './filmes/video7.mp4'
+import Video8 from './filmes/video8.mp4'
+
+  function Videos()
+  {
     return(
         <>
-        <Header />    
-          <Container>
-            <h1 style={{color:"var(--white)"}}>Videos</h1>
-          </Container>
-        <Footer />      
+          <Header />    
+          <section className={Styles.videos}>
+              <Container>
+                  <div className={Styles.content}>
+                      <div className={Styles.areaDosVideos}>
+                          
+                          <div className={Styles.areaTitulo}>
+                                <Titulo title='Galeria de Videos'/>
+                          </div>
+                          
+                          <div className={Styles.areaDoVideo}>
+                             <dir className={Styles.video}>
+                                 <PlayVideo pathVideo = {Video1} />  
+                             </dir>
+                             <dir className={Styles.video}>
+                                 <PlayVideo pathVideo = {Video2} />  
+                             </dir>
+                             <dir className={Styles.video}>
+                                 <PlayVideo pathVideo = {Video3} />  
+                             </dir>
+                             <dir className={Styles.video}>
+                                 <PlayVideo pathVideo = {Video4} />  
+                             </dir>
+                             <dir className={Styles.video}>
+                                 <PlayVideo pathVideo = {Video5} />  
+                             </dir>
+                             <dir className={Styles.video}>
+                                 <PlayVideo pathVideo = {Video6} />  
+                             </dir>
+                             <dir className={Styles.video}>
+                                 <PlayVideo pathVideo = {Video7} />  
+                             </dir>
+                             <dir className={Styles.video}>
+                                 <PlayVideo pathVideo = {Video8} />  
+                             </dir>                                                  
+                             <dir className={Styles.video}>
+                                 <PlayVideo pathVideo = {Video2} />  
+                             </dir>                                                  
+                                            
+                          </div>
+
+                      </div>
+                  </div>
+              </Container>
+          </section>
+          <Footer />      
       </>
     )
 }

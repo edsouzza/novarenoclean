@@ -1,0 +1,28 @@
+.videos{
+    background-image: url('../../../public/assets/bg-texturas/bg-gray.png');   
+    height: 80vh;
+}
+.videos .content{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -4rem;
+}
+.videos .content .areaDosVideos{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem; 
+    justify-content: center;
+    align-items: center;
+    
+}
+.videos .content .areaDosVideos .areaDoVideo{
+    width: 100%;  
+    height: 200px;  
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
