@@ -8,7 +8,7 @@ import Capa from './img/capa.png'
 const PlayVideo = ({ pathVideo }) => {
     return(
         <section className={Styles.playvideos}>         
-            <Video poster={Capa} onCanPlayThrough={()=>{console.log('video play')}}>
+            <Video className={Styles.videoplay} poster={Capa} onCanPlayThrough={()=>{console.log('video play')}} controls={false}>            
                 <source src={ pathVideo } type="video/webm"/>
             </Video>                 
         </section>
