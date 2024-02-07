@@ -33,7 +33,6 @@ import Foto25 from   './img/foto25.jpg'
 import Foto26 from   './img/foto26.jpg'
 import Foto27 from   './img/foto27.jpg'
 import Foto28 from   './img/foto28.jpg'
-// import imgFotos from './ListaFotos.json'
 
 const imgFotos = [ Foto1, Foto2, Foto3, Foto4, Foto5, Foto6, 
                    Foto7, Foto8, Foto9, Foto10, Foto11, Foto12, 
