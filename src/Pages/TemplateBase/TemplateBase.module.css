@@ -1,10 +1,10 @@
 .template{
     background-image: url('../../../public/assets/bg-texturas/bg-gray.png');   
-    height: 80vh;
+    height: 85vh;
 }
 .template .content{
     width: 100%;
-    height: 80vh;
+    height: 85vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -12,8 +12,9 @@
 }
 .template .content .areaConteudo{
     width: 95%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    margin-top: 2rem; 
+    padding-top: 4rem;
+    align-items: center;
 }
