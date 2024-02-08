@@ -51,7 +51,7 @@ function Fotos()
                 <div className={Styles.content}>
                   <div className={Styles.areaFotos}>
                     
-                      <Titulo title='Galeria de Fotos'/>
+                      <Titulo title='Galeria de Fotos' className={Styles.title}/>
                       <div className={Styles.carousel}>                                                     
                           <Carousel>
                               {imgFotos.map( (item, index) => (                                  

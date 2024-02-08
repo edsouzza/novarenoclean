@@ -15,7 +15,6 @@ import Video7    from './filmes/video7.mp4'
 import Video8    from './filmes/video8.mp4'
 import Video9    from './filmes/video9.mp4'
 
-
   function Videos()
   {
     return(
@@ -23,14 +22,9 @@ import Video9    from './filmes/video9.mp4'
           <Header />    
           <section className={Styles.videos}>
               <Container>
-                  <div className={Styles.content}>
-                      <div className={Styles.areaDosVideos}>
+                  <div className={Styles.content}>                    
                           
-                          <div className={Styles.areaTitulo}>
-                                <Titulo title='Galeria de Videos'/>
-                          </div>
-                          
-                          <div className={Styles.areaDoVideo}>
+                          <div className={Styles.areaDosVideos}>
 
                              <dir className={Styles.video}>
                                  <PlayVideo pathVideo = {Video1} />  
@@ -61,8 +55,6 @@ import Video9    from './filmes/video9.mp4'
                              </dir>               
 
                           </div>
-
-                      </div>
                   </div>
               </Container>
           </section>
