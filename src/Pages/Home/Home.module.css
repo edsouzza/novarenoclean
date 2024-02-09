@@ -36,6 +36,7 @@
     font-size: 2.5rem;
     color: var(--white);  
     text-align: center; 
+    text-shadow: 0.1em 0.1em #141414;
 }
 .areaTextos p{
     font-size: 1.2rem;  

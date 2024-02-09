@@ -9,7 +9,6 @@
     align-items: center;
     flex-direction: column;
     margin-top: -2rem;
-    background-color: red;    
 }
 .contato .content .areaConteudo{
     width: 95%;
@@ -18,20 +17,98 @@
     flex-direction: column;
     padding-top: 2rem;
     align-items: center;
-    background-color: blue;
 } 
 .areaBox{
     width: 100%;
-    background-color: yellow;
     display: flex;
     align-items: center;
     justify-content:space-between;
-    margin-top: 2rem;
-    gap: .07rem;
+    margin-top: 2.8rem;
+    gap: .6rem;
 }
 .boxLeft, .boxRight{
     width: 50%;
-    height: 42.4rem;
-    padding: .5rem;
-    background-color: aquamarine;
+    height: 36em;
+    padding: 2rem;    
+    border-radius: 2rem;       
+}    
+.boxLeft{
+    background-image: url('../../../public/assets/bg-texturas/bg-black.png'); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.boxRight{
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #cccccc6b;
+    box-shadow: 12px 2px 12px 1px rgba(4, 0, 0, 0.081);
+}
+.icone{
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-right: .6rem;
+}
+.textoRedes{
+   margin: .7rem 0 2rem 0;
+   color: var(--white);
+   display: flex;;
+   align-items: center;
+}
+.textoDesenv{
+    margin-top: .4rem;
+    font-size: .8rem;
+    color: rgba(165, 165, 165, 0.785);
+}
+.textoFaleConosco{
+   margin-bottom: .3rem;
+   color: #a1a1a1d9;
+   font-size: .9rem;
+}
+.formulario{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2.9rem;
+}
+.formulario input{
+    height: 3rem;    
+    border: none;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: .5rem;
+    outline: none;
+    color:#b8b8b8;
+    font-size: 1.1rem;
+    font-style: normal;
+}
+.formulario textarea{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    color: #9e9e9e;
+    font-size: 1.1rem;
+    text-align: justify;
+    font-style: normal;
+}
+.formulario ::placeholder{
+    color: #cccccc;
+    font-size: .8rem;
+}
+.btnEnviar{
+    cursor: pointer;
+    padding: .8rem 3rem;
+    border-radius: .4rem;
+    margin-top: .5rem;
+    font-weight: bold;
+    background-color: #17b6ef;
+    border: none;
+    color: var(--white);
+    text-transform: uppercase;
+}
+.btnEnviar:hover{
+    color: var(--white);
+    background-color: #00a2dc;
 }
