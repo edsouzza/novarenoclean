@@ -16,7 +16,7 @@ import Video8    from './filmes/video8.mp4'
 import Video9    from './filmes/video9.mp4'
 
   function Videos()
-  {
+  {    
     return(
         <>
           <Header />    
@@ -26,33 +26,33 @@ import Video9    from './filmes/video9.mp4'
                           
                           <div className={Styles.areaDosVideos}>
 
-                             <dir className={Styles.video}>
-                                 <PlayVideo pathVideo = {Video1} />  
-                             </dir>
-                             <dir className={Styles.video}>
+                             <div className={Styles.video} >
+                                 <PlayVideo pathVideo = {Video1}/>  
+                             </div>
+                             <div className={Styles.video}>
                                  <PlayVideo pathVideo = {Video2} />  
-                             </dir>
-                             <dir className={Styles.video}>
+                             </div>
+                             <div className={Styles.video}>
                                  <PlayVideo pathVideo = {Video3} />  
-                             </dir>
-                             <dir className={Styles.video}>
+                             </div>
+                             <div className={Styles.video}>
                                  <PlayVideo pathVideo = {Video4} />  
-                             </dir>
-                             <dir className={Styles.video}>
+                             </div>
+                             <div className={Styles.video}>
                                  <PlayVideo pathVideo = {Video5} />  
-                             </dir>
-                             <dir className={Styles.video}>
+                             </div>
+                             <div className={Styles.video}>
                                  <PlayVideo pathVideo = {Video6} />  
-                             </dir>
-                             <dir className={Styles.video}>
+                             </div>
+                             <div className={Styles.video}>
                                  <PlayVideo pathVideo = {Video7} />  
-                             </dir>
-                             <dir className={Styles.video}>
+                             </div>
+                             <div className={Styles.video}>
                                  <PlayVideo pathVideo = {Video8} />  
-                             </dir>                                                  
-                             <dir className={Styles.video}>
+                             </div>                                                  
+                             <div className={Styles.video}>
                                  <PlayVideo pathVideo = {Video9} />  
-                             </dir>               
+                             </div>               
 
                           </div>
                   </div>

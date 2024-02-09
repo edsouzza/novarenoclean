@@ -9,14 +9,29 @@
     align-items: center;
     flex-direction: column;
     margin-top: -2rem;
-    background-color: red;
+    background-color: red;    
 }
 .contato .content .areaConteudo{
     width: 95%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    padding-top: 4rem;
+    padding-top: 2rem;
     align-items: center;
     background-color: blue;
 } 
+.areaBox{
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 2rem;
+    gap: .07rem;
+}
+.boxLeft, .boxRight{
+    width: 50%;
+    height: 42.4rem;
+    padding: .5rem;
+    background-color: aquamarine;
+}
